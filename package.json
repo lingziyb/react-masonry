@@ -1,0 +1,39 @@
+{
+  "name": "react-masonry",
+  "version": "1.0.0",
+  "description": "瀑布流",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingziyb/react-masonry.git"
+  },
+  "keywords": [
+    "react",
+    "masonry"
+  ],
+  "author": "lingzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lingziyb/react-masonry/issues"
+  },
+  "homepage": "https://github.com/lingziyb/react-masonry#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "npm": "^6.12.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-proxy-server": "^1.1.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "less": "^3.10.3",
+    "typescript": "^3.6.4"
+  }
+}
