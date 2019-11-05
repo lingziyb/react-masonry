@@ -13,6 +13,9 @@ react瀑布流
 ### 使用
 
 传三个参数：
+- column: 显示多少行
+- list：数据
+- renderItem：渲染的每一个item组件
 
 ```
 <Masonry column={3} list={list} renderItem={renderItem} />
