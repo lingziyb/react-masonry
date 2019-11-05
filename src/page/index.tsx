@@ -22,7 +22,7 @@ function renderItem(props: ItemProps): React.ReactElement {
 }
 
 export default function Index() {
-  const [page] = useState(1);
+  const [page] = useState(19);
   const [list, setList] = useState<ItemProps[]>([]);
 
   useEffect(() => {

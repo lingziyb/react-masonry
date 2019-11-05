@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import "./index.less";
 import Column from "./column";
 
-interface Item {
+export interface Item {
   width: number;
   height: number;
 }

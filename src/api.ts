@@ -6,7 +6,7 @@ axios.defaults.withCredentials = true;
 
 export function getList(page: number) {
   const url =
-    "/api/search/acjson?tn=resultjson_com&ipn=rj&word=%E5%9B%BD%E6%BC%AB%E5%A3%81%E7%BA%B8&pn=" +
+    "/api/search/acjson?tn=resultjson_com&ipn=rj&word=3d%E5%9B%BD%E6%BC%AB%E5%A3%81%E7%BA%B8&pn=" +
     30 * page;
   return axios.get(url).then(res => {
     const result = res.data.data;
