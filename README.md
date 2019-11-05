@@ -3,7 +3,7 @@
 react瀑布流
 
 哒哒哒：
-![酱紫的](./readme.png)
+![酱紫的](http://static.lemonof.com/react-masonry/readme.png)
 
 
 ### 目录
